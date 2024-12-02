@@ -1,0 +1,63 @@
+.post_container {
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+    text-align: center;
+  }
+  
+  .post_container h1 {
+    font-family: 'Georgia', serif;
+    font-size: 2em;
+    color: #222;
+    margin-bottom: 0.5em;
+    text-align: center;
+  }
+  
+  .post_container img {
+    max-width: 40%;
+    height: auto;
+    align-items: center;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    
+  }
+  
+  .post_container p {
+    font-family: 'Georgia', serif;
+    font-size: 1.8em;
+    line-height: 1.8;
+    color: #444;
+    margin-bottom: 1.5em;
+    text-align: justify;
+  }
+  
+  .post_container h3 {
+    font-family: 'Georgia', serif;
+    font-size: 1.5em;
+    color: #333;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    text-align: center;
+  }
+  
+  .post_container .tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 1em;
+  }
+  
+  .post_container .tags p {
+    background-color: transparent; /* Sem fundo */
+    color: #555;
+    padding: 5px 10px;
+    font-size: 0.9em;
+  }
+  
+  .post_container .tags span {
+    font-weight: bold;
+    color: #1a8918; /* Cor verde para o # */
+  }
+  

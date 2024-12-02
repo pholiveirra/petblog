@@ -1,0 +1,38 @@
+.loadingContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: #333;
+}
+
+.pawSpinner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  animation: spin 1.5s linear infinite;
+  margin-bottom: 12px;
+}
+
+.pawIcon {
+  width: 100%;
+  height: auto;
+}
+
+@keyframes spin {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}
+
+.loadingText {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #084C94;
+}

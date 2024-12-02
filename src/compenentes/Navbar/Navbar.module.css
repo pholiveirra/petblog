@@ -1,0 +1,33 @@
+.navbar{
+    display: flex;
+    box-shadow: rgb(0,0,0, .15) 0px -2px 10px 0; 
+    /* box-shadow A propriedade é uma lista de sombras separadas por vírgula*/
+    justify-content: space-between;
+    /* space-between -> separa do do lado esquerdo e menu do lado direito da tela */
+    align-items: center;
+    padding: .5em 2em;
+
+}
+
+.brad{
+    font-size: 1.2em;
+}
+
+.brad span{
+    font-weight: 900;
+    text-transform: uppercase;
+
+}
+.links_list{
+    display: flex;
+    list-style: none;
+}
+.links_list li a{
+    padding: .4em .6em;
+}
+
+.active{
+    background-color: #333333;
+    color: #fff;
+
+}
