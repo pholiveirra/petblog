@@ -54,7 +54,7 @@ input,
 textarea {
   box-sizing: border-box;
   border: none;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #026762;
   padding: 0.8em 0em;
   background-color: transparent;
 }
@@ -65,7 +65,7 @@ textarea::placeholder {
 }
 
 .btn {
-  background-color: #1a8918;
+  background-color: #026762;
   color: #fff;
   text-align: center;
   cursor: pointer;
@@ -78,7 +78,7 @@ textarea::placeholder {
 }
 
 .btn.btn-dark {
-  background-color: #000;
+  background-color: #026762;
   border-radius: 0;
 }
 
@@ -91,12 +91,12 @@ textarea::placeholder {
 }
 
 .btn:hover {
-  background-color: #0f730c;
+  background-color: #dc3545;
   color: #fff;
 }
 
 .btn.btn-outline:hover {
-  background-color: #000;
+  background-color: #026762;
 }
 
 .btn.btn-danger:hover {

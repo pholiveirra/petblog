@@ -38,7 +38,7 @@ export default function DraggableDialog({
                 PaperComponent={PaperComponent}
                 aria-labelledby="draggable-dialog-title"
             >
-                <DialogTitle style={{ cursor: 'move' }} id="draggable-dialog-title">
+                <DialogTitle style={{ cursor: 'move'}} id="draggable-dialog-title">
                     {title}
                 </DialogTitle>
                 <DialogContent>
@@ -47,8 +47,8 @@ export default function DraggableDialog({
                     </DialogContentText>
                 </DialogContent>
                 <DialogActions>
-                    <Button onClick={onCancel}>Cancelar</Button>
-                    <Button onClick={onConfirm} autoFocus>
+                    <Button  onClick={onCancel}>Cancelar</Button>
+                    <Button style={{color:"red"}} onClick={onConfirm} autoFocus>
                         Confirmar
                     </Button>
                 </DialogActions>
